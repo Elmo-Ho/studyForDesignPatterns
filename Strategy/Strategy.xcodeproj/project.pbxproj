@@ -17,6 +17,7 @@
 		0B689AF71ECB3428003F33E4 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B689AF61ECB3428003F33E4 /* Man.m */; };
 		0B689AFA1ECB3434003F33E4 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B689AF91ECB3434003F33E4 /* Woman.m */; };
 		0B689AFE1ECB34B7003F33E4 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B689AFD1ECB34B7003F33E4 /* Children.m */; };
+		0B689B011ECB3A43003F33E4 /* UseComputerDoSthBehave.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B689B001ECB3A43003F33E4 /* UseComputerDoSthBehave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		0B689AF91ECB3434003F33E4 /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 		0B689AFC1ECB34B7003F33E4 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
 		0B689AFD1ECB34B7003F33E4 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		0B689AFF1ECB3A43003F33E4 /* UseComputerDoSthBehave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseComputerDoSthBehave.h; sourceTree = "<group>"; };
+		0B689B001ECB3A43003F33E4 /* UseComputerDoSthBehave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseComputerDoSthBehave.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		0B689AFB1ECB344B003F33E4 /* Action */ = {
 			isa = PBXGroup;
 			children = (
+				0B689AFF1ECB3A43003F33E4 /* UseComputerDoSthBehave.h */,
+				0B689B001ECB3A43003F33E4 /* UseComputerDoSthBehave.m */,
 			);
 			name = Action;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				0B689AE21ECB336B003F33E4 /* ViewController.m in Sources */,
 				0B689ADF1ECB336B003F33E4 /* AppDelegate.m in Sources */,
 				0B689AFE1ECB34B7003F33E4 /* Children.m in Sources */,
+				0B689B011ECB3A43003F33E4 /* UseComputerDoSthBehave.m in Sources */,
 				0B689AF71ECB3428003F33E4 /* Man.m in Sources */,
 				0B689AF41ECB3405003F33E4 /* Person.m in Sources */,
 				0B689ADC1ECB336B003F33E4 /* main.m in Sources */,

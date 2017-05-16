@@ -10,8 +10,5 @@
 
 @implementation Children
 
-- (void)useComputerDoSomeThing{
-    NSLog(@"玩电脑游戏");
-}
 
 @end

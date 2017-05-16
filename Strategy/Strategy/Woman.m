@@ -10,8 +10,5 @@
 
 @implementation Woman
 
-- (void)useComputerDoSomeThing{
-    NSLog(@"购物");
-}
 
 @end

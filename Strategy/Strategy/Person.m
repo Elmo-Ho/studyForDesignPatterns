@@ -13,8 +13,10 @@
 
 @implementation Person
 
+static PersonType _personType;
+
 + (Person *)personWithType:(PersonType)personType{
-    
+    _personType = personType;
     switch (personType) {
         case ManType:
             return [Man new];
@@ -34,7 +36,8 @@
     }
 }
 
-- (void)useComputerDoSomeThing{
-    
-}
+        - (void)useComputerDoSomeThing{
+            UseComputerDoSthBehave *useComputerDoSthObject = [UseComputerDoSthBehave useComputerDoSthBehaveWithPersonType:_personType];
+            [useComputerDoSthObject useComputerDoSth];
+        }
 @end

@@ -10,7 +10,5 @@
 
 @implementation Man
 
-- (void)useComputerDoSomeThing{
-    NSLog(@"办公");
-}
+
 @end

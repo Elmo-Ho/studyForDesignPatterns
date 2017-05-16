@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    Person *person = [Person personWithType:ManType];
+    Person *person = [Person personWithType:WomanType];
     [person useComputerDoSomeThing];
 }
 
