@@ -10,4 +10,9 @@
 
 @implementation ChicagoCheesePizza
 
+- (instancetype)prepare{
+    NSLog(@"芝加哥芝士披萨准备");
+    return self;
+}
+
 @end

@@ -38,9 +38,13 @@
     
     //创建纽约风味pizza
     NYPizzaStore *nyPizzaStore = [[NYPizzaStore alloc] init];
-    
     Pizza *nyCheesePizza = [nyPizzaStore orderPizzaWithPizzaType:cheesePizza];
-    Pizza *nyPepperoniPizza = [nyPizzaStore orderPizzaWithPizzaType:pepperoniPizza];
+    //Pizza *nyPepperoniPizza = [nyPizzaStore orderPizzaWithPizzaType:pepperoniPizza];
+    
+    //创建芝加哥风味pizza
+    ChicagoPizzaStore *chicagoPizzaStore = [[ChicagoPizzaStore alloc] init];
+    Pizza *chicagoCheesePizza = [chicagoPizzaStore orderPizzaWithPizzaType:cheesePizza];
+    
 }
 
 @end
