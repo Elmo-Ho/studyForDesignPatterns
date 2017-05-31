@@ -6,16 +6,16 @@
 //  Copyright © 2017年 SkyHarute. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+        #import <Foundation/Foundation.h>
 
-@interface Beverage : NSObject
+        @interface Beverage : NSObject
 
-@property (nonatomic, copy) NSString *beverageDesc;
+        @property (nonatomic, copy) NSString *beverageDesc;
 
-@property (nonatomic, strong, readonly) Beverage *beverage;
+        @property (nonatomic, strong, readonly) Beverage *beverage;
 
-- (NSInteger)cost;
+        - (NSInteger)cost;
 
-- (instancetype)initWithBeverage:(Beverage *)beverage;
+        - (instancetype)initWithBeverage:(Beverage *)beverage;
 
-@end
+        @end

@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3E8A981EDBB8F300168108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8A971EDBB8F300168108 /* main.m */; };
+		0B3E8A9B1EDBB8F300168108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8A9A1EDBB8F300168108 /* AppDelegate.m */; };
+		0B3E8A9E1EDBB8F300168108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8A9D1EDBB8F300168108 /* ViewController.m */; };
+		0B3E8AA11EDBB8F300168108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8A9F1EDBB8F300168108 /* Main.storyboard */; };
+		0B3E8AA31EDBB8F300168108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8AA21EDBB8F300168108 /* Assets.xcassets */; };
+		0B3E8AA61EDBB8F300168108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8AA41EDBB8F300168108 /* LaunchScreen.storyboard */; };
+		0B3E8AB71EDBB92300168108 /* NYCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AAE1EDBB92300168108 /* NYCheesePizza.m */; };
+		0B3E8AB81EDBB92300168108 /* NYPepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AB01EDBB92300168108 /* NYPepperoniPizza.m */; };
+		0B3E8AB91EDBB92300168108 /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AB21EDBB92300168108 /* NYPizzaStore.m */; };
+		0B3E8ABA1EDBB92300168108 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AB41EDBB92300168108 /* Pizza.m */; };
+		0B3E8ABB1EDBB92300168108 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AB61EDBB92300168108 /* PizzaStore.m */; };
+		0B3E8AC21EDBB93400168108 /* ChicagoCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8ABD1EDBB93400168108 /* ChicagoCheesePizza.m */; };
+		0B3E8AC31EDBB93400168108 /* ChicagoPepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8ABF1EDBB93400168108 /* ChicagoPepperoniPizza.m */; };
+		0B3E8AC41EDBB93400168108 /* ChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AC11EDBB93400168108 /* ChicagoPizzaStore.m */; };
+		0B3E8ACC1EDBBA3F00168108 /* PizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8ACB1EDBBA3F00168108 /* PizzaIngredientFactory.m */; };
+		0B3E8ACF1EDBBE7300168108 /* NYPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8ACE1EDBBE7300168108 /* NYPizzaIngredientFactory.m */; };
+		0B3E8AD21EDBBE9100168108 /* ChicagoPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AD11EDBBE9100168108 /* ChicagoPizzaIngredientFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3E8A931EDBB8F300168108 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3E8A971EDBB8F300168108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B3E8A991EDBB8F300168108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B3E8A9A1EDBB8F300168108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B3E8A9C1EDBB8F300168108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B3E8A9D1EDBB8F300168108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B3E8AA01EDBB8F300168108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B3E8AA21EDBB8F300168108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B3E8AA51EDBB8F300168108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B3E8AA71EDBB8F300168108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3E8AAD1EDBB92300168108 /* NYCheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYCheesePizza.h; sourceTree = "<group>"; };
+		0B3E8AAE1EDBB92300168108 /* NYCheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYCheesePizza.m; sourceTree = "<group>"; };
+		0B3E8AAF1EDBB92300168108 /* NYPepperoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPepperoniPizza.h; sourceTree = "<group>"; };
+		0B3E8AB01EDBB92300168108 /* NYPepperoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPepperoniPizza.m; sourceTree = "<group>"; };
+		0B3E8AB11EDBB92300168108 /* NYPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		0B3E8AB21EDBB92300168108 /* NYPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		0B3E8AB31EDBB92300168108 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		0B3E8AB41EDBB92300168108 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		0B3E8AB51EDBB92300168108 /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		0B3E8AB61EDBB92300168108 /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		0B3E8ABC1EDBB93400168108 /* ChicagoCheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoCheesePizza.h; sourceTree = "<group>"; };
+		0B3E8ABD1EDBB93400168108 /* ChicagoCheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoCheesePizza.m; sourceTree = "<group>"; };
+		0B3E8ABE1EDBB93400168108 /* ChicagoPepperoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPepperoniPizza.h; sourceTree = "<group>"; };
+		0B3E8ABF1EDBB93400168108 /* ChicagoPepperoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPepperoniPizza.m; sourceTree = "<group>"; };
+		0B3E8AC01EDBB93400168108 /* ChicagoPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaStore.h; sourceTree = "<group>"; };
+		0B3E8AC11EDBB93400168108 /* ChicagoPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaStore.m; sourceTree = "<group>"; };
+		0B3E8ACA1EDBBA3F00168108 /* PizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaIngredientFactory.h; sourceTree = "<group>"; };
+		0B3E8ACB1EDBBA3F00168108 /* PizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaIngredientFactory.m; sourceTree = "<group>"; };
+		0B3E8ACD1EDBBE7300168108 /* NYPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		0B3E8ACE1EDBBE7300168108 /* NYPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		0B3E8AD01EDBBE9100168108 /* ChicagoPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		0B3E8AD11EDBBE9100168108 /* ChicagoPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaIngredientFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B3E8A901EDBB8F300168108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3E8A8A1EDBB8F300168108 = {
+			isa = PBXGroup;
+			children = (
+				0B3E8A951EDBB8F300168108 /* AbstractFactory */,
+				0B3E8A941EDBB8F300168108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B3E8A941EDBB8F300168108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8A931EDBB8F300168108 /* AbstractFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B3E8A951EDBB8F300168108 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8AC51EDBB93A00168108 /* Class */,
+				0B3E8A991EDBB8F300168108 /* AppDelegate.h */,
+				0B3E8A9A1EDBB8F300168108 /* AppDelegate.m */,
+				0B3E8A9C1EDBB8F300168108 /* ViewController.h */,
+				0B3E8A9D1EDBB8F300168108 /* ViewController.m */,
+				0B3E8A9F1EDBB8F300168108 /* Main.storyboard */,
+				0B3E8AA21EDBB8F300168108 /* Assets.xcassets */,
+				0B3E8AA41EDBB8F300168108 /* LaunchScreen.storyboard */,
+				0B3E8AA71EDBB8F300168108 /* Info.plist */,
+				0B3E8A961EDBB8F300168108 /* Supporting Files */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		0B3E8A961EDBB8F300168108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8A971EDBB8F300168108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B3E8AC51EDBB93A00168108 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8AC91EDBB9E600168108 /* PizzaIngredientFactory */,
+				0B3E8AC81EDBB96900168108 /* PizzaStore */,
+				0B3E8AC71EDBB95100168108 /* Pizza */,
+				0B3E8AC61EDBB94200168108 /* Base */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		0B3E8AC61EDBB94200168108 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8ACA1EDBBA3F00168108 /* PizzaIngredientFactory.h */,
+				0B3E8ACB1EDBBA3F00168108 /* PizzaIngredientFactory.m */,
+				0B3E8AB31EDBB92300168108 /* Pizza.h */,
+				0B3E8AB41EDBB92300168108 /* Pizza.m */,
+				0B3E8AB51EDBB92300168108 /* PizzaStore.h */,
+				0B3E8AB61EDBB92300168108 /* PizzaStore.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0B3E8AC71EDBB95100168108 /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8AAD1EDBB92300168108 /* NYCheesePizza.h */,
+				0B3E8AAE1EDBB92300168108 /* NYCheesePizza.m */,
+				0B3E8AAF1EDBB92300168108 /* NYPepperoniPizza.h */,
+				0B3E8AB01EDBB92300168108 /* NYPepperoniPizza.m */,
+				0B3E8ABC1EDBB93400168108 /* ChicagoCheesePizza.h */,
+				0B3E8ABD1EDBB93400168108 /* ChicagoCheesePizza.m */,
+				0B3E8ABE1EDBB93400168108 /* ChicagoPepperoniPizza.h */,
+				0B3E8ABF1EDBB93400168108 /* ChicagoPepperoniPizza.m */,
+			);
+			name = Pizza;
+			sourceTree = "<group>";
+		};
+		0B3E8AC81EDBB96900168108 /* PizzaStore */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8AC01EDBB93400168108 /* ChicagoPizzaStore.h */,
+				0B3E8AC11EDBB93400168108 /* ChicagoPizzaStore.m */,
+				0B3E8AB11EDBB92300168108 /* NYPizzaStore.h */,
+				0B3E8AB21EDBB92300168108 /* NYPizzaStore.m */,
+			);
+			name = PizzaStore;
+			sourceTree = "<group>";
+		};
+		0B3E8AC91EDBB9E600168108 /* PizzaIngredientFactory */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8ACD1EDBBE7300168108 /* NYPizzaIngredientFactory.h */,
+				0B3E8ACE1EDBBE7300168108 /* NYPizzaIngredientFactory.m */,
+				0B3E8AD01EDBBE9100168108 /* ChicagoPizzaIngredientFactory.h */,
+				0B3E8AD11EDBBE9100168108 /* ChicagoPizzaIngredientFactory.m */,
+			);
+			name = PizzaIngredientFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B3E8A921EDBB8F300168108 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B3E8AAA1EDBB8F300168108 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				0B3E8A8F1EDBB8F300168108 /* Sources */,
+				0B3E8A901EDBB8F300168108 /* Frameworks */,
+				0B3E8A911EDBB8F300168108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 0B3E8A931EDBB8F300168108 /* AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B3E8A8B1EDBB8F300168108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SkyHarute;
+				TargetAttributes = {
+					0B3E8A921EDBB8F300168108 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B3E8A8E1EDBB8F300168108 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B3E8A8A1EDBB8F300168108;
+			productRefGroup = 0B3E8A941EDBB8F300168108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B3E8A921EDBB8F300168108 /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B3E8A911EDBB8F300168108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3E8AA61EDBB8F300168108 /* LaunchScreen.storyboard in Resources */,
+				0B3E8AA31EDBB8F300168108 /* Assets.xcassets in Resources */,
+				0B3E8AA11EDBB8F300168108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3E8A8F1EDBB8F300168108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3E8AC41EDBB93400168108 /* ChicagoPizzaStore.m in Sources */,
+				0B3E8AB71EDBB92300168108 /* NYCheesePizza.m in Sources */,
+				0B3E8ABA1EDBB92300168108 /* Pizza.m in Sources */,
+				0B3E8AC31EDBB93400168108 /* ChicagoPepperoniPizza.m in Sources */,
+				0B3E8ABB1EDBB92300168108 /* PizzaStore.m in Sources */,
+				0B3E8AB91EDBB92300168108 /* NYPizzaStore.m in Sources */,
+				0B3E8A9E1EDBB8F300168108 /* ViewController.m in Sources */,
+				0B3E8AD21EDBBE9100168108 /* ChicagoPizzaIngredientFactory.m in Sources */,
+				0B3E8AB81EDBB92300168108 /* NYPepperoniPizza.m in Sources */,
+				0B3E8A9B1EDBB8F300168108 /* AppDelegate.m in Sources */,
+				0B3E8A981EDBB8F300168108 /* main.m in Sources */,
+				0B3E8ACC1EDBBA3F00168108 /* PizzaIngredientFactory.m in Sources */,
+				0B3E8AC21EDBB93400168108 /* ChicagoCheesePizza.m in Sources */,
+				0B3E8ACF1EDBBE7300168108 /* NYPizzaIngredientFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B3E8A9F1EDBB8F300168108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B3E8AA01EDBB8F300168108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B3E8AA41EDBB8F300168108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B3E8AA51EDBB8F300168108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B3E8AA81EDBB8F300168108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B3E8AA91EDBB8F300168108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B3E8AAB1EDBB8F300168108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyHarute.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B3E8AAC1EDBB8F300168108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyHarute.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B3E8A8E1EDBB8F300168108 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3E8AA81EDBB8F300168108 /* Debug */,
+				0B3E8AA91EDBB8F300168108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B3E8AAA1EDBB8F300168108 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3E8AAB1EDBB8F300168108 /* Debug */,
+				0B3E8AAC1EDBB8F300168108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B3E8A8B1EDBB8F300168108 /* Project object */;
+}

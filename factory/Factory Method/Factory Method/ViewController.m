@@ -25,7 +25,7 @@
 //    [self getBasePizza];
     
     //获得纽约风味pizza
-    [self getNYPizza];
+    [self getPizza];
 }
 
 
@@ -34,7 +34,7 @@
     Pizza *pizza = [pizzaStore orderPizzaWithPizzaType:nil];
 }
 
-- (void)getNYPizza{
+- (void)getPizza{
     
     //创建纽约风味pizza
     NYPizzaStore *nyPizzaStore = [[NYPizzaStore alloc] init];
