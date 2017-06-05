@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B397C281EE510CA009AA34E /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C271EE510CA009AA34E /* NoCommand.m */; };
+		0B397C2B1EE5131D009AA34E /* BaseElectricAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C2A1EE5131D009AA34E /* BaseElectricAppliance.m */; };
+		0B397C2F1EE5146B009AA34E /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C2E1EE5146B009AA34E /* Light.m */; };
+		0B397C321EE51498009AA34E /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C311EE51498009AA34E /* TV.m */; };
+		0B397C351EE5151C009AA34E /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C341EE5151C009AA34E /* LightOnCommand.m */; };
+		0B397C381EE51532009AA34E /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C371EE51532009AA34E /* LightOffCommand.m */; };
+		0B397C3B1EE51543009AA34E /* TVOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C3A1EE51543009AA34E /* TVOnCommand.m */; };
+		0B397C3E1EE51552009AA34E /* TVOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B397C3D1EE51552009AA34E /* TVOffCommand.m */; };
 		0B3E8AE31EE0156000168108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AE21EE0156000168108 /* main.m */; };
 		0B3E8AE61EE0156000168108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AE51EE0156000168108 /* AppDelegate.m */; };
 		0B3E8AE91EE0156000168108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AE81EE0156000168108 /* ViewController.m */; };
 		0B3E8AEC1EE0156000168108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8AEA1EE0156000168108 /* Main.storyboard */; };
 		0B3E8AEE1EE0156000168108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8AED1EE0156000168108 /* Assets.xcassets */; };
 		0B3E8AF11EE0156000168108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E8AEF1EE0156000168108 /* LaunchScreen.storyboard */; };
+		0B3E8AFC1EE0F13300168108 /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E8AFB1EE0F13300168108 /* BaseCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B397C261EE510CA009AA34E /* NoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		0B397C271EE510CA009AA34E /* NoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
+		0B397C291EE5131D009AA34E /* BaseElectricAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElectricAppliance.h; sourceTree = "<group>"; };
+		0B397C2A1EE5131D009AA34E /* BaseElectricAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseElectricAppliance.m; sourceTree = "<group>"; };
+		0B397C2D1EE5146B009AA34E /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		0B397C2E1EE5146B009AA34E /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		0B397C301EE51498009AA34E /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		0B397C311EE51498009AA34E /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		0B397C331EE5151C009AA34E /* LightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		0B397C341EE5151C009AA34E /* LightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		0B397C361EE51532009AA34E /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		0B397C371EE51532009AA34E /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		0B397C391EE51543009AA34E /* TVOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOnCommand.h; sourceTree = "<group>"; };
+		0B397C3A1EE51543009AA34E /* TVOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVOnCommand.m; sourceTree = "<group>"; };
+		0B397C3C1EE51552009AA34E /* TVOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOffCommand.h; sourceTree = "<group>"; };
+		0B397C3D1EE51552009AA34E /* TVOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVOffCommand.m; sourceTree = "<group>"; };
 		0B3E8ADE1EE0156000168108 /* Command Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Command Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3E8AE21EE0156000168108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B3E8AE41EE0156000168108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +51,8 @@
 		0B3E8AED1EE0156000168108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3E8AF01EE0156000168108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B3E8AF21EE0156000168108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3E8AFA1EE0F13300168108 /* BaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommand.h; sourceTree = "<group>"; };
+		0B3E8AFB1EE0F13300168108 /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B397C251EE510AD009AA34E /* Comand */ = {
+			isa = PBXGroup;
+			children = (
+				0B397C261EE510CA009AA34E /* NoCommand.h */,
+				0B397C271EE510CA009AA34E /* NoCommand.m */,
+				0B397C331EE5151C009AA34E /* LightOnCommand.h */,
+				0B397C341EE5151C009AA34E /* LightOnCommand.m */,
+				0B397C361EE51532009AA34E /* LightOffCommand.h */,
+				0B397C371EE51532009AA34E /* LightOffCommand.m */,
+				0B397C391EE51543009AA34E /* TVOnCommand.h */,
+				0B397C3A1EE51543009AA34E /* TVOnCommand.m */,
+				0B397C3C1EE51552009AA34E /* TVOffCommand.h */,
+				0B397C3D1EE51552009AA34E /* TVOffCommand.m */,
+			);
+			name = Comand;
+			sourceTree = "<group>";
+		};
+		0B397C2C1EE5144D009AA34E /* ElectricAppliance */ = {
+			isa = PBXGroup;
+			children = (
+				0B397C2D1EE5146B009AA34E /* Light.h */,
+				0B397C2E1EE5146B009AA34E /* Light.m */,
+				0B397C301EE51498009AA34E /* TV.h */,
+				0B397C311EE51498009AA34E /* TV.m */,
+			);
+			name = ElectricAppliance;
+			sourceTree = "<group>";
+		};
 		0B3E8AD51EE0156000168108 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +113,7 @@
 		0B3E8AE01EE0156000168108 /* Command Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				0B3E8AF81EE0F0E500168108 /* Class */,
 				0B3E8AE41EE0156000168108 /* AppDelegate.h */,
 				0B3E8AE51EE0156000168108 /* AppDelegate.m */,
 				0B3E8AE71EE0156000168108 /* ViewController.h */,
@@ -77,6 +133,27 @@
 				0B3E8AE21EE0156000168108 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B3E8AF81EE0F0E500168108 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0B397C2C1EE5144D009AA34E /* ElectricAppliance */,
+				0B397C251EE510AD009AA34E /* Comand */,
+				0B3E8AF91EE0F10A00168108 /* Base */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		0B3E8AF91EE0F10A00168108 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E8AFA1EE0F13300168108 /* BaseCommand.h */,
+				0B3E8AFB1EE0F13300168108 /* BaseCommand.m */,
+				0B397C291EE5131D009AA34E /* BaseElectricAppliance.h */,
+				0B397C2A1EE5131D009AA34E /* BaseElectricAppliance.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B397C381EE51532009AA34E /* LightOffCommand.m in Sources */,
+				0B397C351EE5151C009AA34E /* LightOnCommand.m in Sources */,
+				0B397C281EE510CA009AA34E /* NoCommand.m in Sources */,
+				0B397C321EE51498009AA34E /* TV.m in Sources */,
+				0B397C2B1EE5131D009AA34E /* BaseElectricAppliance.m in Sources */,
 				0B3E8AE91EE0156000168108 /* ViewController.m in Sources */,
+				0B397C3B1EE51543009AA34E /* TVOnCommand.m in Sources */,
+				0B397C2F1EE5146B009AA34E /* Light.m in Sources */,
 				0B3E8AE61EE0156000168108 /* AppDelegate.m in Sources */,
+				0B397C3E1EE51552009AA34E /* TVOffCommand.m in Sources */,
+				0B3E8AFC1EE0F13300168108 /* BaseCommand.m in Sources */,
 				0B3E8AE31EE0156000168108 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +397,7 @@
 				0B3E8AF71EE0156000168108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
